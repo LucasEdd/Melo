@@ -75,6 +75,7 @@ gcloud compute forwarding-rules create http-content-rule \
 --global \
 --target-http-proxy http-lb-proxy \
 --ports 80
+
 gcloud compute forwarding-rules list
 
 
